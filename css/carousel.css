@@ -1,0 +1,92 @@
+.jcarousel-skin-tango .jcarousel-container {
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 649px;
+	padding: 0px 33px 35px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  649px;
+    height: 320px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 649px;
+    height: 320px;
+	position: relative;
+}
+
+.jcarousel-skin-tango .jcarousel-item .text{
+	position:	absolute;
+	bottom: 30px;
+	right: 20px;
+	wdidth: 320px;
+	font-family: Georgia;
+	font-size: 21px;
+	color: #fff;
+	line-height: 20px;
+	padding: 2px 0 3px 5px;
+	background: url(../images/common/carousel-text-bg.jpg) repeat-y 0 0;
+	}
+	.jcarousel-skin-tango .jcarousel-item .text span{
+		background: #375177;
+	}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 32px;
+    height: 320px;
+    cursor: pointer;
+    background: transparent url(../images/common/next.jpg) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 0px;
+    right: auto;
+    background-image: url(../images/common/prev.jpg);
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 32px;
+    height: 320px;
+    cursor: pointer;
+    background: transparent url(../images/common/prev.jpg) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(../images/common/next.jpg);
+}
